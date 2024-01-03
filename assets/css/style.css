@@ -24,33 +24,66 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-.morsa-giratoria{
+
+/*--------------------------------------------------------------
+# Estilo nuevo
+--------------------------------------------------------------*/
+.morsa-giratoria {
   width: 40px;
-  top: 0 ;
+  top: 0;
   position: absolute;
   transition: transform 5s;
 }
-.morsa-giratoria:hover
-{
- transform: rotate(5turn);
+
+.morsa-giratoria:hover {
+  transform: rotate(5turn);
 }
-.morsa-encima{
-  top: 0 ;
+
+.morsa-encima {
+  top: 0;
   width: 40px;
   position: absolute;
   transition: all 5s;
 }
-.morsa-encima:hover
-{
+
+.morsa-encima:hover {
   width: 100px;
+}
+
+.texto_cambiado{
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.texto_cambiado:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn:hover{
+  background-color: red;
+}
+
+#gato{
+  width: 200px;
+  animation: gatitoMovs 3s linear infinite forwards;
+}
+
+@keyframes gatitoMovs {
+  from{
+    transform: translateX(-1000px) scaleX(-1);
+  }
+  to{
+    transform: translateX(700px) scaleX(-1);
+  }
 }
 /*--------------------------------------------------------------
 # Back to top button
