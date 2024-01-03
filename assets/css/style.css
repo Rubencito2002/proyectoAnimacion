@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Estilo nuevo
 --------------------------------------------------------------*/
+.posicion{
+  position: relative;
+}
+
 .morsa-giratoria {
   width: 40px;
   top: 0;
@@ -84,6 +88,18 @@ h1, h2, h3, h4, h5, h6 {
   to{
     transform: translateX(700px) scaleX(-1);
   }
+}
+
+video{
+  height: auto;
+  width: 100%;
+}
+
+picture{
+  width: 250px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 /*--------------------------------------------------------------
 # Back to top button
