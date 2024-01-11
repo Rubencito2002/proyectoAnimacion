@@ -78,10 +78,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #gato{
   width: 200px;
-  animation: gatitoMovs 3s linear infinite forwards;
+  animation: acelerate 3s linear infinite forwards;
 }
 
-@keyframes gatitoMovs {
+@keyframes acelerate {
   from{
     transform: translateX(-1000px) scaleX(-1);
   }
